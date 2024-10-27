@@ -1,0 +1,116 @@
+@media screen and (max-width:480px){
+    /* Menu */
+
+    .header {
+        justify-content: space-between;
+        position: relative;
+    }
+
+    .cont_menu {
+        display: none;
+    }
+
+    .cont_btn_menu {
+        display: flex;
+    }
+
+    .cont_menu {
+        background-color: #ff4048;
+        align-items: flex-start;
+        position: absolute;
+        padding: 10px 20px;
+        width: 100%;
+        top: 100%;
+        left: 0;
+    }
+
+    .cont_menu li {
+        width: 100%;
+        color: white;
+    }
+
+    .cont_menu li a {
+        color: white;
+        padding: 10px;
+        display: inline-block;
+        width: 100%;
+        border-bottom: 2px white dotted;
+    }
+
+    /* Slider */
+
+    .cont_slider_info {
+        background-color: #ff404a54;
+        align-items: center;
+        text-align: center;
+        padding: 30px;
+        width: 80%;
+        gap: 20px;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        text-align: center;
+    }
+
+    .cont_slider_info h1 {
+        font-size: 4em;
+        color: white;
+    }
+
+    .cont_slider_info p {
+        display: none;
+    }
+
+    /* Servicios */
+
+    .cont_servicios {
+        flex-direction: column;
+        align-items: center;
+        gap: 20px;
+    }
+
+    .cont_servicio {
+        box-shadow: 0px 0px 5px #dedede;
+        max-width: 80%;
+        padding: 50px;
+    }
+
+    /* Galeria */
+
+    .cont_padre_galeria {
+        flex-direction: column-reverse;
+    }
+
+    .cont_galeria {
+        gap: 20px;
+    }
+
+    .fig_foto {
+        width: 90%;
+        margin: auto;
+    }
+
+    .cont_galeria_info h2 {
+        font-size: 2.8em;
+        max-width: 100%;
+    }
+
+    /* Footer */
+
+    .footer_padre {
+        padding-top: 0;
+    }
+
+    .btn_subir {
+        top: -30%;
+        right: 3%;
+    }
+
+    .footer_padre hr{
+        display: none;
+    }
+
+    .cont_footer_info {
+        display: none;
+    }
+}
